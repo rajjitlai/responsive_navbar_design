@@ -20,7 +20,30 @@ nav {
   padding: 0% 6%;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
+  background: linear-gradient(to right, #fff, #00fdea, #38f482, #00fdea, #fff);
+  background-size: 500%;
+  animation: background 20s linear infinite;
+}
+
+@keyframes background {
+  0% {
+    background-position: 0% 0%;
+  }
+  20% {
+    background-position: 100% 0%;
+  }
+  40% {
+    background-position: 200% 0%;
+  }
+  60% {
+    background-position: 300% 0%;
+  }
+  80% {
+    background-position: 400% 0%;
+  }
+  100% {
+    background-position: 500% 0%;
+  }
 }
 
 nav img {
