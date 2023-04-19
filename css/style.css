@@ -5,7 +5,9 @@
   box-sizing: border-box;
 }
 
-body {
+header {
+  min-height: 100vh;
+  width: 100%;
   background-image: linear-gradient(
       rgba(48, 48, 50, 0.624),
       rgba(0, 0, 0, 0.689)
@@ -13,11 +15,6 @@ body {
     url(/img/bg.jpg);
   background-position: center;
   background-size: cover;
-}
-
-header {
-  min-height: 100vh;
-  width: 100%;
   position: relative;
 }
 
@@ -38,7 +35,6 @@ nav {
   );
   background-size: 500%;
   animation: background 20s linear infinite reverse;
-  backdrop-filter: blur(5px);
 }
 
 @keyframes background {
@@ -137,6 +133,7 @@ nav .uil {
 
   .nav-links {
     position: fixed;
+    background: #fff;
     height: 100vh;
     width: 200px;
     top: 0;
@@ -154,7 +151,6 @@ nav .uil {
       #3d3f4392
     );
     background-size: 100% 500%;
-    backdrop-filter: blur(15px);
     background-position: 0 40%;
     animation: backgroundMob 20s linear infinite reverse;
   }
@@ -176,13 +172,13 @@ nav .uil {
     cursor: pointer;
   }
 
+  .nav-links ul {
+    padding: 30px;
+  }
+
   .uil-times-circle {
     padding-top: 10px;
     padding-left: 10px;
-  }
-
-  .nav-links ul {
-    padding: 30px;
   }
 }
 
