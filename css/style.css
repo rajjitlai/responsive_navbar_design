@@ -56,17 +56,12 @@ nav img {
   gap: 2rem;
 }
 
-.nav-links ul {
-  display: flex;
-  justify-content: right;
-  gap: 2.5rem;
-}
-
 .nav-links ul li {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
   position: relative;
+  margin-right: 3%;
 }
 
 .nav-links ul li a {
@@ -125,22 +120,28 @@ nav .uil {
 
   .nav-links {
     position: fixed;
-    background: blur(5px);
+    background: #fff;
+    /* background: blur(5px); */
     height: 100vh;
     width: 200px;
     top: 0;
     right: -200px;
-    text-align: center;
+    text-align: left;
     z-index: 2;
     transition: 1s;
   }
 
   nav .uil {
     display: block;
-    color: #fff;
+    color: #000;
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
+  }
+
+  .uil-times-circle {
+    padding-top: 10px;
+    padding-left: 10px;
   }
 
   .nav-links ul {
