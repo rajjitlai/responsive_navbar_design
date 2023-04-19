@@ -6,7 +6,13 @@
 }
 
 body {
-  background: #ffffff;
+  background-image: linear-gradient(
+      rgba(48, 48, 50, 0.356),
+      rgba(0, 0, 0, 0.564)
+    ),
+    url(/img/bg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 header {
@@ -24,6 +30,7 @@ nav {
   background-size: 500%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   animation: background 20s linear infinite reverse;
+  backdrop-filter: blur(20px);
 }
 
 @keyframes background {
@@ -89,7 +96,7 @@ nav img {
 
 .info-box {
   width: 90%;
-  color: #000;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
