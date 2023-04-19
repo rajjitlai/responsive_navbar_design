@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #445162;
+  background: #ffffff;
 }
 
 header {
@@ -22,6 +22,7 @@ nav {
   align-items: center;
   background: linear-gradient(to right, #fff, #00fdea, #38f482, #00fdea, #fff);
   background-size: 500%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   animation: background 20s linear infinite reverse;
 }
 
@@ -88,7 +89,7 @@ nav img {
 
 .info-box {
   width: 90%;
-  color: #fff;
+  color: #000;
   position: absolute;
   top: 50%;
   left: 50%;
