@@ -19,7 +19,7 @@ A simple responsive Navbar design using HTML, CSS and JavaScript x Smoking Anima
 ## Mobile View
 
 <p align="center">
-	<img src="./resources/rec2.png" width="50%" margin="auto" alt="mobile">
+	<img src="./resources/rec2.png" width="80%" margin="auto" alt="mobile">
 </p>
 
 ### > Responsive navbar that can be used in any website
